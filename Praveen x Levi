@@ -1,3 +1,4 @@
+
 import os
 import time
 import json
@@ -48,8 +49,8 @@ WHITE = '\x1b[1;37m'  # White
 Y = "\033[1;33m"
 C = "\033[1;36m"
 M = "\033[1;35m"
-EXPIRE_TIME = '2025-10-27 11:00:00'
-EXPIRE_MSG = WHITE+'File stopped. Contact @beasteren '
+EXPIRE_TIME = '2025-10-29 11:00:00'
+EXPIRE_MSG = WHITE+'File stopped. Contact @BeastEren '
 
 print(yellow+'')
 def check_expiration():
@@ -62,19 +63,19 @@ def check_expiration():
 
     remaining_time = expiration_time - current_time 
     days_remaining = remaining_time.days
-    print(f"{red}This tool will expire on 27-October{red}")
-    print(f"{red}Time remaining until expiration: {days_remaining} days")
+    print(f"{green}This tool will expire on 25-October{green}")
+    print(f"{green}Time remaining until expiration: {days_remaining} days")
 check_expiration()
 print(yellow+'')
 
-COLOR_COMBOS=[['red','cyan'],['red','cyan'],['red','cyan']]
+COLOR_COMBOS=[['green','cyan'],['green','cyan'],['green','cyan']]
 levi_colors,qe_colors=random.sample(COLOR_COMBOS,2)
-levi=render(' Zoro X    Levi',colors=levi_colors,align='center',font='block',background='black')
-QE=render('Telegram: @Beasteren,@zoro_olds |',colors=qe_colors,align='right',font='console',background='white')
+levi=render(' Praveen X Levi',colors=levi_colors,align='center',font='block',background='black')
+QE=render('Telegram: @Beasteren,@feybed |',colors=qe_colors,align='right',font='console',background='black')
 print(levi)
-print(f'{red}﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌')
+print(f'{M}⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘')
 print(QE)
-print(f'{red}﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌')
+print(f'{M}⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘')
 time.sleep(1)
 c1='\x1b[38;5;120m'
 j21='\x1b[38;5;204m'
@@ -194,15 +195,15 @@ def InfoAcc(username,gg):
 [🔗] URL ==> https://www.instagram.com/{username}  
 [♻️️] RESET ==> {reset_email}  
 ─✦───────────────────────✦──✦───────────────────────✦─
- 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡ | ⚡ @zoro_olds ⚡""";inline_keyboard=[[{'text':'DEVELOPER','url':'https://t.me/beasteren'},{'text':'JOIN CHANNEL','url':'https://t.me/zoro_olds'}]];payload={'chat_id':user_id,'text':ss,'reply_markup':json.dumps({'inline_keyboard':inline_keyboard})}
+ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡ | ⚡ @feybed ⚡""";inline_keyboard=[[{'text':'DEVELOPER','url':'https://t.me/beasteren'},{'text':'JOIN CHANNEL','url':'https://t.me/levixlovepreet'}]];payload={'chat_id':user_id,'text':ss,'reply_markup':json.dumps({'inline_keyboard':inline_keyboard})}
 	try:requests.post(f"https://api.telegram.org/bot{Token}/sendMessage",data=payload)
 	except:pass
 def pppp():
     os.system('cls' if os.name=='nt' else 'clear')
     print(""*54)
-    print(f"{red} 𝑼𝑵𝑪: [{hits}]  ~  𝑩𝑨𝑫: [{bad_gm}]  ~  𝑩𝑨𝑫 𝑬𝑴𝑨𝑰𝑳: {bad_mail} ")
+    print(f"{M} UNC: [{hits}]  ~  BAD: [{bad_gm}]  ~  BAD EMAIL: {bad_mail} ")
     print(""*54)
-    print(":: 𝒁𝑶𝑹𝑶 𝑿 𝑳𝑬𝑽𝑰 ::".center(54))
+    print(":: PRAVEEN X LEVI ::".center(54))
 import requests
 import json
 import random
@@ -213,7 +214,7 @@ def safe_int_input(prompt,default):
 	try:value=input(prompt).strip();return int(value)if value else default
 	except:return default
 ranges={1:(1279001,17750000),2:(17750000,279760000),3:(279760000,900990000),4:(900990000,1629010000),5:(1629010000,2500000000),6:(2500000000,3713668786),7:(3713668786,5699785217),8:(5699785217,8507940634),9:(8507940634,21254029834)}
-print(f'{red}\nSelect a year for user ID range:')
+print('\nSelect a year for user ID range:')
 for k in range(1,10):print(f"{k} - {2010+k}")
 year_choice=safe_int_input('ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ʏᴇᴀʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʜᴜɴᴛ (1-9) : ',5)
 def generate_user_id():start,end=ranges.get(year_choice,ranges[5]);return str(random.randrange(start,end))

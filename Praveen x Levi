@@ -71,7 +71,7 @@ print(yellow+'')
 COLOR_COMBOS=[['green','cyan'],['green','cyan'],['green','cyan']]
 levi_colors,qe_colors=random.sample(COLOR_COMBOS,2)
 levi=render(' Praveen X Levi',colors=levi_colors,align='center',font='block',background='black')
-QE=render('Telegram: @Beasteren,@feybed |',colors=qe_colors,align='right',font='console',background='black')
+QE=render('Telegram: @Beasteren,@Soarpy |',colors=qe_colors,align='right',font='console',background='black')
 print(levi)
 print(f'{green}⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘')
 print(QE)
@@ -195,7 +195,7 @@ def InfoAcc(username,gg):
 [🔗] URL ==> https://www.instagram.com/{username}  
 [♻️️] RESET ==> {reset_email}  
 ─✦───────────────────────✦──✦───────────────────────✦─
- 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡ | ⚡ @feybed ⚡""";inline_keyboard=[[{'text':'DEVELOPER','url':'https://t.me/beasteren'},{'text':'JOIN CHANNEL','url':'https://t.me/levixlovepreet'}]];payload={'chat_id':user_id,'text':ss,'reply_markup':json.dumps({'inline_keyboard':inline_keyboard})}
+ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡ | ⚡ @Soarpy ⚡""";inline_keyboard=[[{'text':'DEVELOPER','url':'https://t.me/beasteren'},{'text':'JOIN CHANNEL','url':'https://t.me/levixlovepreet'}]];payload={'chat_id':user_id,'text':ss,'reply_markup':json.dumps({'inline_keyboard':inline_keyboard})}
 	try:requests.post(f"https://api.telegram.org/bot{Token}/sendMessage",data=payload)
 	except:pass
 def pppp():

@@ -594,6 +594,6 @@ def users():
             pass
 lakhanfile = requests.Session()
 csrf(lakhanfile)
-for i in range(120):
+for i in range(100):
     Thread(target=users).start()
     # @lakhan_sharm

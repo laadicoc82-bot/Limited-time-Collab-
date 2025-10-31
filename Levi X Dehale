@@ -17,7 +17,7 @@ from colorama import Fore, Style, init
 G = "\033[1;32m"
 print('Enjoy Guys ')
 print(f"{G}✿" * 72)
-logo = render('LEVI X     DEHALE PY ', font='block', colors=['green', 'cyan'], align='center', background='black' , space=True)
+logo = render('LEVI X       DEHALE ', font='block', colors=['green', 'cyan'], align='center', background='black' , space=True)
 print(logo)
 print(f'{G}✿' * 72)
 print("")

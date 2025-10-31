@@ -17,7 +17,7 @@ from colorama import Fore, Style, init
 G = "\033[1;32m"
 print('Enjoy Guys ')
 print(f"{G}✿" * 72)
-logo = render('LEVI X       DEHALE ', font='block', colors=['green', 'cyan'], align='center', background='black' , space=True)
+logo = render('LEVI ', font='block', colors=['green', 'cyan'], align='center', background='black' , space=True)
 print(logo)
 print(f'{G}✿' * 72)
 print("")
@@ -44,7 +44,7 @@ def print_slowly(text, delay=0.1):
        time.sleep(delay)
    print()
 
-print_slowly(f"{C}𝗛𝗶𝗴𝗵 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀 𝗫 𝗠𝗲𝘁𝗮 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗧𝗼𝗼𝗹 𝗕𝘆 𝗟𝗲𝘃𝗶 𝗫 𝗗𝗲𝗵𝗮𝗹𝗲")
+print_slowly(f"{C}𝗛𝗶𝗴𝗵 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀 𝗫 𝗠𝗲𝘁𝗮 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗧𝗼𝗼𝗹 𝗕𝘆 𝗟𝗲𝘃𝗶")
 print_slowly(f"{C}𝗪𝗮𝗶𝘁 𝗔 𝗠𝗼𝗺𝗲𝗻𝘁 𝗧𝗼𝗼𝗹 𝗜𝘀 𝗥𝘂𝗻𝗻𝗶𝗻𝗴.....")
 def dis():
 
@@ -53,7 +53,7 @@ def dis():
         f"❉ {G}𝗕𝗔𝗗 𝗜𝗚: {C}{bi}\n"
         f"❉ {G}𝗕𝗔𝗗 𝗘𝗠𝗔𝗜𝗟: {C}{be}\n"
         f"❉ {G}𝗚𝗢𝗢𝗗: {C}{gi}\n"
-        f"❉{G}COLLAB DEV : @BEASTEREN | @Dehale"
+        f"❉{G}COLLAB DEV : @BEASTEREN"
     )
     
     sys.stdout.flush()
@@ -513,7 +513,7 @@ def lakhanXYZ(x, y, e, id, token):
 [☃️] Meta ==> {m}  
 [🖇️] URL ==> https://www.instagram.com/{x}  
 ─✦───────────────────────✦──✦───────────────────────✦─
- 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡ | ⚡ @Dehale ⚡
+ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 •  ⚡ @BEASTEREN ⚡
 """
     try:
         params={"chat_id": id, "text": msg}

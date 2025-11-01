@@ -588,7 +588,7 @@ def users():
                     continue
                 u = loda.get('username')
                 f = loda.get('follower_count', 0)
-                if u and f > 30:
+                if u and f > 40:
                     lakhanX(u+'@gmail.com')
         except:
             pass
